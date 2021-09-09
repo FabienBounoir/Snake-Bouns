@@ -12,7 +12,7 @@ function main(currentTime)
     {
         if(confirm("Perdu. clique sur 'OK' pour rejouer"))
         {
-            window.location = '/'
+            window.location = window.location.href
         }
         return 
     }
